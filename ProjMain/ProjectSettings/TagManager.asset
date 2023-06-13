@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Trap
+  - Tractor
+  - Rborder
+  - Bushes
+  - Barn
+  - CaveTrigger
+  - TopTrigger
+  - Keys
+  - EndDoor
+  - Enemy
+  - PlayerSword
+  - MobTrigger
+  - Flip
+  - SpawnTrigger
+  - Mobtrigger1
+  - Mobtrigger2
+  - Mobtrigger3
+  - Mobtrigger4
+  - Mobtrigger5
+  - hayena
+  - DoorEnd
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - JmpDown
+  - Water
+  - UI
+  - blocks
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 1889357259
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
