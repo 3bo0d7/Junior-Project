@@ -10,6 +10,8 @@ public class keyscript : MonoBehaviour
     public Vector2[] spawnPositions;
     public float spawnDelay = 2f;
     private float timer = 0f;
+    [SerializeField] AudioSource keysjingle;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,7 @@ public class keyscript : MonoBehaviour
             SpawnObject();
             timer = 0f;
         }*/
+
     }
 
     void SpawnObject()
@@ -34,6 +37,11 @@ public class keyscript : MonoBehaviour
         Vector2 positionToSpawn = spawnPositions[randomIndex];
         print("spawning: " + positionToSpawn);
         Instantiate(key, positionToSpawn, Quaternion.identity);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        keysjingle.Play();
     }
 }
 
