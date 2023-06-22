@@ -6,7 +6,9 @@ public class JarScript : MonoBehaviour
 {
     private Transform player; // reference to the player's transform
     bool isbreak = false;
-    Animator animator;  
+    Animator animator;
+    [SerializeField] AudioSource jarsoundbreak;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class JarScript : MonoBehaviour
         isbreak = true;
 
         animator.SetBool("isBreak", isbreak);
+        jarsoundbreak.Play();
 
         StartCoroutine(destroying());
 
