@@ -42,6 +42,7 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] Image key;
     [SerializeField] GameObject spawn1;
     [SerializeField] AudioSource death1;
+    [SerializeField] AudioSource keyjingle;
     
     // Start is called before the first frame update
     void Start()
@@ -196,6 +197,7 @@ public class MovePlayer : MonoBehaviour
             Destroy(collision.gameObject);
             key.enabled = true;
             KeyCounter++;
+            keyjingle.Play();
         }
         if (collision.gameObject.tag == "DoorEnd" && KeyCounter > 0)
         {
