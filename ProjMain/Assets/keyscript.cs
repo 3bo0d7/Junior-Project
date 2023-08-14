@@ -12,7 +12,6 @@ public class keyscript : MonoBehaviour
     private float timer = 0f;
     [SerializeField] AudioSource keysjingle;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +41,9 @@ public class keyscript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         keysjingle.Play();
+       
     }
+
+
 }
 
