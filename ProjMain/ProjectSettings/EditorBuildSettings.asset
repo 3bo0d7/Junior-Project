@@ -6,33 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level0_0.unity
+    path: Assets/Scenes/Farm/Level0_0.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Barn1.unity
     guid: ca1b2d34664884d479878299dfe471d8
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Level0_1.unity
+    path: Assets/Scenes/Farm/Level0_1.unity
     guid: 53d0f39f13b6fd9469d4c109f92b6251
   - enabled: 1
-    path: Assets/Scenes/Level0_2.unity
+    path: Assets/Scenes/Farm/Level0_2.unity
     guid: 1f771546ee7d34044bdde41bf90c25e6
   - enabled: 1
-    path: Assets/Scenes/Level0_3.unity
+    path: Assets/Scenes/Farm/Level0_3.unity
     guid: f820df50ee60ee7419f929467a7a3359
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 5dabf014a56e94e4cb7f9db3a526b98d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}

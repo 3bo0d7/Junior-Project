@@ -46,7 +46,7 @@ public class PlayerAttack : MonoBehaviour
         {
             t.text = ""+hits;
             
-            if (Input.GetKeyUp(KeyCode.H) && animator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+            if (Input.GetKeyUp(KeyCode.H))
             {
                 attack();
                 hits--;
