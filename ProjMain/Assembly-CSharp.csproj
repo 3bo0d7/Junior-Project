@@ -74,6 +74,7 @@
     <Compile Include="Assets\WalkingSounds.cs" />
     <Compile Include="Assets\Rotation.cs" />
     <Compile Include="Assets\JarScript.cs" />
+    <Compile Include="Assets\ParticleMovement.cs" />
     <Compile Include="Assets\Rotation2.cs" />
     <Compile Include="Assets\MovingObejcts.cs" />
   </ItemGroup>
