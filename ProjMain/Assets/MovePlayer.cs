@@ -43,6 +43,8 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] GameObject spawn1;
     [SerializeField] AudioSource death1;
     [SerializeField] AudioSource keyjingle;
+
+    public ParticleSystem dust;
     
     // Start is called before the first frame update
     void Start()
@@ -75,6 +77,11 @@ public class MovePlayer : MonoBehaviour
             else
                 playerRunningDirection = -1;
         }
+
+        if (playerRigidbody.velocity.x > 0.2)
+        {
+            CreateDust();
+        }
     }
     void idle()
     {
@@ -93,6 +100,9 @@ public class MovePlayer : MonoBehaviour
         playerRigidbody.velocity = playerMove;
 
         transform.localScale = new Vector2(playerRunningDirection, 1);
+
+        
+        
     }
 
     void Jump()
@@ -100,7 +110,11 @@ public class MovePlayer : MonoBehaviour
         print("velocity: " + playerRigidbody.velocity.x + ", " + playerRigidbody.velocity.y);
 
         if (playerRigidbody.velocity.y > 0.001 | playerRigidbody.velocity.y < -0.001)
+        {
             isJumpingUp = true;
+            CreateDust();
+        }
+            
         else
         {
             isJumpingUp = false;
@@ -248,6 +262,11 @@ public class MovePlayer : MonoBehaviour
             StartCoroutine(death());
 
         }
+    }
+
+    void CreateDust()
+    {
+        dust.Play();
     }
   
 }
