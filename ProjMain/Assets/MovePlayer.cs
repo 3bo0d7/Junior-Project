@@ -78,7 +78,7 @@ public class MovePlayer : MonoBehaviour
                 playerRunningDirection = -1;
         }
 
-        if (playerRigidbody.velocity.x > 0.2)
+        if (Mathf.Abs(playerRigidbody.velocity.x) > 0.2)
         {
             CreateDust();
         }
