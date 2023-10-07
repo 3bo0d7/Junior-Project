@@ -16,9 +16,13 @@ C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 59292
 =======
 49607
+>>>>>>> Stashed changes
+=======
+65532
 >>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
 C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
@@ -54,6 +58,7 @@ C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Player connection [19240] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2112714228 [EditorId] 2112714228 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19240] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2112714228 [EditorId] 2112714228 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -66,6 +71,13 @@ Player connection [15980] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 183
 
 Refreshing native plugins compatible for Editor in 15.97 ms, found 4 plugins.
 >>>>>>> Stashed changes
+=======
+Player connection [2496] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2079888780 [EditorId] 2079888780 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2496] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2079888780 [EditorId] 2079888780 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 15.79 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -77,7 +89,11 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3949 MB
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     Driver:   31.0.15.3699
+=======
+    Driver:   31.0.15.3742
+>>>>>>> Stashed changes
 =======
     Driver:   31.0.15.3742
 >>>>>>> Stashed changes
@@ -85,6 +101,7 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
@@ -110,11 +127,25 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 786ms
 	BeginReloadAssembly (119ms)
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004938 seconds.
+- Loaded All Assemblies, in  0.785 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (293ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (14ms)
@@ -162,6 +193,30 @@ Domain Reload Profiling: 786ms
 			ProcessInitializeOnLoadAttributes (206ms)
 			ProcessInitializeOnLoadMethodAttributes (60ms)
 >>>>>>> Stashed changes
+=======
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,6 +226,7 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in  1.247 seconds
 Refreshing native plugins compatible for Editor in 6.95 ms, found 4 plugins.
@@ -188,10 +244,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1922ms
 	BeginReloadAssembly (172ms)
 >>>>>>> Stashed changes
+=======
+- Loaded All Assemblies, in  1.855 seconds
+Refreshing native plugins compatible for Editor in 9.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.090 seconds
+Domain Reload Profiling: 3942ms
+	BeginReloadAssembly (303ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		CreateAndSetChildDomain (34ms)
 	RebuildCommonClasses (58ms)
@@ -216,9 +282,35 @@ Domain Reload Profiling: 1922ms
 			BeforeProcessingInitializeOnLoad (98ms)
 			ProcessInitializeOnLoadAttributes (455ms)
 			ProcessInitializeOnLoadMethodAttributes (62ms)
+=======
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1384ms)
+		LoadAssemblies (803ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (751ms)
+			TypeCache.Refresh (704ms)
+				TypeCache.ScanAssembly (677ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2091ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (1377ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
+<<<<<<< Updated upstream
 		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
 Refreshing native plugins compatible for Editor in 8.53 ms, found 4 plugins.
@@ -227,6 +319,16 @@ Unloading 4243 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 76 unused Assets / (135.4 KB). Loaded Objects now: 4704.
 Memory consumption went from 148.8 MB to 148.6 MB.
 Total: 16.564900 ms (FindLiveObjects: 2.729600 ms CreateObjectMapping: 0.899400 ms MarkObjects: 12.122500 ms  DeleteObjects: 0.812100 ms)
+=======
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 12.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (135.0 KB). Loaded Objects now: 4705.
+Memory consumption went from 148.9 MB to 148.7 MB.
+Total: 5.307100 ms (FindLiveObjects: 0.623400 ms CreateObjectMapping: 0.823600 ms MarkObjects: 3.704800 ms  DeleteObjects: 0.154000 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -241,6 +343,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 215821.367933 seconds.
   path: Assets/PlatformRuleTile.asset
   artifactKey: Guid(9f90b677cefcb2e43986a7c56e013e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -396,30 +499,112 @@ Received Import Request.
   path: Assets/sound effects/Sounds/Sound Effects - Keys Jingle.mp3
   artifactKey: Guid(f545813ec96b67b4992504776a6497f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sound effects/Sounds/Sound Effects - Keys Jingle.mp3 using Guid(f545813ec96b67b4992504776a6497f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298199b99b459561dd4cfd7d0e976f94') in 0.044158 seconds
+=======
+  Time since last request: 622843.523709 seconds.
+  path: Assets/Stick.physicsMaterial2D
+  artifactKey: Guid(42d4499c75cf5ee43b1e16cc60a33751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stick.physicsMaterial2D using Guid(42d4499c75cf5ee43b1e16cc60a33751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9304285a43e4d1aa9b956f7e52149b67') in 0.016460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MinimapCam.prefab
+  artifactKey: Guid(a368cb1367957bf4bab8d85d562454bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimapCam.prefab using Guid(a368cb1367957bf4bab8d85d562454bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0daec0de6e291da3e10af047eadfc0') in 0.025968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CanvasMinimap.prefab
+  artifactKey: Guid(5577334352c473d449d8dfcbcbbb1925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanvasMinimap.prefab using Guid(5577334352c473d449d8dfcbcbbb1925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943694a4f2e40a137db695b5d26f3a17') in 0.008793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MinimapRender.renderTexture
+  artifactKey: Guid(687a4d72d07273c45886ff4e806f50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimapRender.renderTexture using Guid(687a4d72d07273c45886ff4e806f50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd3b6f3b3f839145b40a01d801b1ab') in 0.142506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (74.3 KB). Loaded Objects now: 4708.
+Memory consumption went from 77.5 MB to 77.4 MB.
+Total: 31.282600 ms (FindLiveObjects: 0.610000 ms CreateObjectMapping: 1.004200 ms MarkObjects: 29.600000 ms  DeleteObjects: 0.066100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.789870 seconds.
+  path: Assets/Scenes/9sprite_8bit_circle_outline.png
+  artifactKey: Guid(a69be94d72af5fa43968cb74af076033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/9sprite_8bit_circle_outline.png using Guid(a69be94d72af5fa43968cb74af076033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a379599c37aa2aceb63b98d83fadae') in 0.091626 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.001481 seconds.
   path: Assets/sound effects/Sounds/Dead body hitting ground sound effect (1).mp3
   artifactKey: Guid(c8cdc978c5e547c4cb13bc70accc5c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sound effects/Sounds/Dead body hitting ground sound effect (1).mp3 using Guid(c8cdc978c5e547c4cb13bc70accc5c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12065d6cf79df3807eb6b8bec29f6c1') in 0.033054 seconds
+=======
+  Time since last request: 159.010335 seconds.
+  path: Assets/TileSet/Jungle_tile_02.png
+  artifactKey: Guid(ea453aab9f7e0d54ca198332ecafe256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_02.png using Guid(ea453aab9f7e0d54ca198332ecafe256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8ab9fb656046acba7a0bbc3868697b') in 0.025809 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000018 seconds.
   path: Assets/sound effects/Sounds/DEATH SOUNDS (1).mp3
   artifactKey: Guid(fe9cf16e6d4b9584fb5ecd6f7864e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sound effects/Sounds/DEATH SOUNDS (1).mp3 using Guid(fe9cf16e6d4b9584fb5ecd6f7864e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c1139425734cd95cf90b90999633ed') in 0.024662 seconds
+=======
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileSet/Jungle_tile_04.png
+  artifactKey: Guid(ed59cee01b0f8334cb4cfd5fecb96910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_04.png using Guid(ed59cee01b0f8334cb4cfd5fecb96910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44481a9a71e5284ec0c8d1b6d83ef2e3') in 0.016166 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000022 seconds.
   path: Assets/sound effects/Sounds/Strategy Dramatic Music Vanoss Gaming Background Music HD (4).mp3
   artifactKey: Guid(3a35983317efbf149897f2396b9c6cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sound effects/Sounds/Strategy Dramatic Music Vanoss Gaming Background Music HD (4).mp3 using Guid(3a35983317efbf149897f2396b9c6cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bb876e78d87c52ce9037bca808494b') in 0.031768 seconds
+=======
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileSet/Jungle_tile_08.png
+  artifactKey: Guid(8abba129cb66778459efe6cbc6a0b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_08.png using Guid(8abba129cb66778459efe6cbc6a0b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a7a37a1aa1581983596ca5551a63b8') in 0.016146 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
@@ -520,10 +705,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 719631.477415 seconds.
   path: Assets/MinimapRender.renderTexture
   artifactKey: Guid(687a4d72d07273c45886ff4e806f50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MinimapRender.renderTexture using Guid(687a4d72d07273c45886ff4e806f50f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd3b6f3b3f839145b40a01d801b1ab') in 0.067294 seconds
+=======
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileSet/Jungle_tile_10.png
+  artifactKey: Guid(594da92c603d6534e8182d73179bd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_10.png using Guid(594da92c603d6534e8182d73179bd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c4872cb8f75f62245f80f20f8b8581') in 0.042029 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
@@ -581,10 +773,248 @@ Exiting without the bug reporter. Application will terminate with return code 0
 =======
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 731.053376 seconds.
   path: Assets/sound effects/Sounds/BackGroundMusic-Adventure Zard.mp3
   artifactKey: Guid(20e40c6c41509c9478a0789f9e561cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/sound effects/Sounds/BackGroundMusic-Adventure Zard.mp3 using Guid(20e40c6c41509c9478a0789f9e561cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b51f05f551285bdc8fa0bf8e8afcb9b') in 0.082820 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+>>>>>>> Stashed changes
+=======
+  Time since last request: 0.000249 seconds.
+  path: Assets/TileSet/Jungle_tile_16.png
+  artifactKey: Guid(7e3a2b32b809dd44bbee8b927ccdaf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_16.png using Guid(7e3a2b32b809dd44bbee8b927ccdaf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c50598df61d6d293d63ef32192f55d') in 0.040566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileSet/Jungle_tile_11.png
+  artifactKey: Guid(748fd279fb8b9f34186376457b65aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_11.png using Guid(748fd279fb8b9f34186376457b65aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a36c2623c0b326d06ed6e0f529c528a') in 0.033466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileSet/Jungle_tile_19.png
+  artifactKey: Guid(e441290a49228674fa49d6ed669b7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_19.png using Guid(e441290a49228674fa49d6ed669b7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cda27a2881ad6e2a55caacd4c167580') in 0.033417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileSet/Jungle_tile_20.png
+  artifactKey: Guid(a9cd0bb250818174e9357fddd08eda57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_20.png using Guid(a9cd0bb250818174e9357fddd08eda57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa86e8ae4af9f6a2371307939a56bd2d') in 0.027386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/TileSet/Jungle_tile_22.png
+  artifactKey: Guid(4352f6c989138d74f979a568c74aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_22.png using Guid(4352f6c989138d74f979a568c74aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1f52463227cbb829d2b1bee49a3014') in 0.023067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileSet/Jungle_tile_29.png
+  artifactKey: Guid(8c4a1356bea140f40a2cbe6afc9252b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_29.png using Guid(8c4a1356bea140f40a2cbe6afc9252b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ab03c0b86bcee56ded13d48f83201c') in 0.019662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TileSet/Jungle_tile_24.png
+  artifactKey: Guid(3dc61a2301da7c64f98e739dc277531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_24.png using Guid(3dc61a2301da7c64f98e739dc277531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e60dbb93a7e88b0f3d4f8ff387eb581') in 0.023977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileSet/Jungle_tile_09.png
+  artifactKey: Guid(67676abbdfbccb84480992657509d9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_09.png using Guid(67676abbdfbccb84480992657509d9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e9893f850ac2e5f1de0aa61e7cfad7') in 0.021925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/TileSet/Jungle_tile_23.png
+  artifactKey: Guid(e1bebb37a7930e447bd8a46d436369d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_23.png using Guid(e1bebb37a7930e447bd8a46d436369d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55d9dbfc5fc159135564771edbbfa8d') in 0.021623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileSet/Jungle_tile_34.png
+  artifactKey: Guid(be694e60c49dd0e45adfc2d5d1e1df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_34.png using Guid(be694e60c49dd0e45adfc2d5d1e1df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f51a3760e9f9421cc5421e8ed620ec8') in 0.022483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileSet/Jungle_tile_20 1.png
+  artifactKey: Guid(e32a60db735acc14185f12a9c5a66f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_20 1.png using Guid(e32a60db735acc14185f12a9c5a66f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27abce4650d336d42146783fc7b19e9b') in 0.015125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileSet/Jungle_tile_26.png
+  artifactKey: Guid(066a2c1d32cf3d64084176aa97bf2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_26.png using Guid(066a2c1d32cf3d64084176aa97bf2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d65418232c3148a45d5985b687d26d') in 0.017386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileSet/Jungle_tile_17.png
+  artifactKey: Guid(964f1bc5349a310468d91263f2b26289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_17.png using Guid(964f1bc5349a310468d91263f2b26289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95670595fbfc52de28ca668724ad9326') in 0.016733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TileSet/Jungle_tile_14.png
+  artifactKey: Guid(44263b767980fa94db1fc4d666eaee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_14.png using Guid(44263b767980fa94db1fc4d666eaee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ee137e841cc7ef013aa9d025d2db3b') in 0.031489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileSet/Jungle_tile_15.png
+  artifactKey: Guid(eca30d358679dd34693db326209d89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_15.png using Guid(eca30d358679dd34693db326209d89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caec8caeca57bb02b105ce8f68d3b57') in 0.020230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.809873 seconds.
+  path: Assets/TileSet/Jungle_tile_37.png
+  artifactKey: Guid(066f9b293def4e04faf630f9458a7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_37.png using Guid(066f9b293def4e04faf630f9458a7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc36b81bf04e600875a0a90f270862') in 0.054217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileSet/Jungle_tile_45.png
+  artifactKey: Guid(436528cf1c21996439561a794d84ea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_45.png using Guid(436528cf1c21996439561a794d84ea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2879f0ce4485927afbb230068e197a8a') in 0.025325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/TileSet/Jungle_tile_50.png
+  artifactKey: Guid(73ae825c9b9892d44ab92c98c1e38e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_50.png using Guid(73ae825c9b9892d44ab92c98c1e38e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec7c8e1d2314a8db620f023e66c370c') in 0.025071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileSet/Jungle_tile_44.png
+  artifactKey: Guid(289f6e4397e1fe64cad5fbd517b9125a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_44.png using Guid(289f6e4397e1fe64cad5fbd517b9125a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88befd750e9385609c30fe4fcd3bc9c0') in 0.027262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TileSet/Jungle_tile_55.png
+  artifactKey: Guid(153174c6196657e4ead2fb34154ca01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_55.png using Guid(153174c6196657e4ead2fb34154ca01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f11c33df10cedac80ded7de284d4cf4') in 0.022208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileSet/Jungle_tile_60.png
+  artifactKey: Guid(c33885f38064dbe4e8589175b589fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_60.png using Guid(c33885f38064dbe4e8589175b589fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328f9910c6d9206107f8eaf459496b66') in 0.022166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileSet/Jungle_tile_43.png
+  artifactKey: Guid(ff562f2f24e49914094b40adf6b2092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_43.png using Guid(ff562f2f24e49914094b40adf6b2092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43e5b3b20a77efd606c0239e33e38ad') in 0.019953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileSet/Jungle_tile_62.png
+  artifactKey: Guid(81cb3157ced9e7b4d96353bda13c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_62.png using Guid(81cb3157ced9e7b4d96353bda13c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a042c2bf16766e5307b95297a9ddc5') in 0.029434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileSet/Jungle_tile_38.png
+  artifactKey: Guid(f627570c8df41f94894cc8d38b5cabc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_38.png using Guid(f627570c8df41f94894cc8d38b5cabc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54100dc798eb0622d8c2cf0cb32ca225') in 0.021776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileSet/Jungle_tile_51.png
+  artifactKey: Guid(cd620f2005098544f88488b9da3a08e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_51.png using Guid(cd620f2005098544f88488b9da3a08e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2a1d48eba74430b8872063fb0a05a1') in 0.026229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileSet/Jungle_tile_41.png
+  artifactKey: Guid(8e6c94ce8f7d1664eb53a71e551a82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_41.png using Guid(8e6c94ce8f7d1664eb53a71e551a82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbac96876776c9b0f2b2340c4ab6650c') in 0.024896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TileSet/Jungle_tile_61.png
+  artifactKey: Guid(2df15aceb3f3370479f132341860ca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_61.png using Guid(2df15aceb3f3370479f132341860ca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f10a4332ead91e0044d4974ea3b011') in 0.026325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileSet/Jungle_tile_42.png
+  artifactKey: Guid(1c254b84046ae824d898ab7dc2939aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_42.png using Guid(1c254b84046ae824d898ab7dc2939aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb53d0fdc1bf3265baac320cff6ec9') in 0.029606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileSet/Jungle_tile_58.png
+  artifactKey: Guid(600fcb823190eb34783392db9017da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileSet/Jungle_tile_58.png using Guid(600fcb823190eb34783392db9017da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c96e811b26f8edda8962446680305b') in 0.026931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
 >>>>>>> Stashed changes
