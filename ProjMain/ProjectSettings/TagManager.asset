@@ -25,6 +25,7 @@ TagManager:
   - Mobtrigger5
   - hayena
   - DoorEnd
+  - Bullet
   layers:
   - Default
   - TransparentFX

@@ -233,7 +233,7 @@ public class MovePlayer : MonoBehaviour
     }
     IEnumerator death()
     {
-        isDeath=true;
+         isDeath=true;
         playerRigidbody.velocity = new Vector2(0, 0);
         playerAnimator.SetBool("isDeath",isDeath);
         yield return new WaitForSeconds(1.5f);
@@ -270,3 +270,10 @@ public class MovePlayer : MonoBehaviour
     }
   
 }
+
+/*first u do tag for boss
+tag for bullet
+if bullet colide with player 
+send message damage
+add colider for bullet and boss
+*/
