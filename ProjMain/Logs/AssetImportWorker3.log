@@ -15,7 +15,7 @@ C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-65532
+60286
 Successfully changed project path to: C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
 C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/User/OneDrive/Documents/GitHub/Junior-Project/ProjMain
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21404] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2270824496 [EditorId] 2270824496 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21292] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 180888693 [EditorId] 180888693 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21404] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 2270824496 [EditorId] 2270824496 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21292] Host "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 180888693 [EditorId] 180888693 [Version] 1048832 [Id] WindowsEditor(7,3bdulla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 19.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -64,49 +64,49 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
     Vendor:   NVIDIA
     VRAM:     3949 MB
-    Driver:   31.0.15.3742
+    Driver:   31.0.15.3758
 Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004194 seconds.
-- Loaded All Assemblies, in  0.351 seconds
+Registered in 0.003795 seconds.
+- Loaded All Assemblies, in  0.438 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.356 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.286 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (194ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (358ms)
+	FinalizeReload (286ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (222ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,51 +116,55 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.767 seconds
-Refreshing native plugins compatible for Editor in 5.17 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.630 seconds
-Domain Reload Profiling: 1395ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (38ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (528ms)
-		LoadAssemblies (289ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (576ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (316ms)
-			TypeCache.Refresh (285ms)
-				TypeCache.ScanAssembly (273ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (295ms)
 			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (630ms)
+	FinalizeReload (888ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (442ms)
+		SetupLoadedEditorAssemblies (678ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.76 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (135.3 KB). Loaded Objects now: 4705.
-Memory consumption went from 148.6 MB to 148.5 MB.
-Total: 3.531700 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.272600 ms MarkObjects: 2.799000 ms  DeleteObjects: 0.136600 ms)
+Unloading 4258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.6 KB). Loaded Objects now: 4721.
+Memory consumption went from 154.0 MB to 153.8 MB.
+Total: 3.822300 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.275700 ms MarkObjects: 3.034000 ms  DeleteObjects: 0.158200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,580 +181,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 623623.724996 seconds.
-  path: Assets/TileSet/Barn-Background/Background-pic.prefab
-  artifactKey: Guid(3000f3b37331cca4f892944465a5bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/Background-pic.prefab using Guid(3000f3b37331cca4f892944465a5bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8b34eeca695ab829cbcedd58b3570a') in 0.835005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1500
-========================================================================
-Received Import Request.
-  Time since last request: 11.049146 seconds.
-  path: Assets/TileSet/Barn-Background/walls_37.asset
-  artifactKey: Guid(d2f4046e3ec8a3849b37e45c2bc0be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_37.asset using Guid(d2f4046e3ec8a3849b37e45c2bc0be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d4f67c7c4ead27bd3b8420489d3f84') in 0.009402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Barn-Background/walls_41.asset
-  artifactKey: Guid(611704d7a9430174e95efbad499aa0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_41.asset using Guid(611704d7a9430174e95efbad499aa0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a66110801289d29c6fd8de8fa0934d3') in 0.004748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Barn-Background/walls_38.asset
-  artifactKey: Guid(71b096402efe02646b6a624f82719060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_38.asset using Guid(71b096402efe02646b6a624f82719060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7894e772864b6e9aa32cc2dac90e1222') in 0.004221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.029047 seconds.
-  path: Assets/TileSet/Barn-Background/walls_46.asset
-  artifactKey: Guid(e37af44c0d5d326489176d9f148c8149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_46.asset using Guid(e37af44c0d5d326489176d9f148c8149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af77619e0f421aaf3f4cf8e38f0049') in 0.004190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Barn-Background/walls_53.asset
-  artifactKey: Guid(801df5f50d9dc654682393e7d8dfbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_53.asset using Guid(801df5f50d9dc654682393e7d8dfbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7051e0e32d00de99009b22b8584ddd') in 0.003354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Barn-Background/walls_52.asset
-  artifactKey: Guid(7b7475a5815fba347816e6d28b4134a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_52.asset using Guid(7b7475a5815fba347816e6d28b4134a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4798fccbd7573ba97e07de10eeeb33b9') in 0.003694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.008124 seconds.
-  path: Assets/TileSet/Barn-Background/walls_59.asset
-  artifactKey: Guid(9c9ed4dec9464de4fa997ce435b1b200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_59.asset using Guid(9c9ed4dec9464de4fa997ce435b1b200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91807494397bb0a4e3800c21d30e65e7') in 0.004101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.018299 seconds.
-  path: Assets/TileSet/Barn-Background/walls_64.asset
-  artifactKey: Guid(a324bc7e2fa5b7e418ced21a7c942d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_64.asset using Guid(a324bc7e2fa5b7e418ced21a7c942d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dbe69cd17a49fa856bdfe89813e3da') in 0.002927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TileSet/Barn-Background/walls_67.asset
-  artifactKey: Guid(893b4e13ba39ed249aa5e29cf0592b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_67.asset using Guid(893b4e13ba39ed249aa5e29cf0592b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463b0e0cbd040d852bcc0d2d45c5c6f9') in 0.002731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TileSet/Barn-Background/walls_71.asset
-  artifactKey: Guid(c5015e3870cb53a4583b1d33916e6759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_71.asset using Guid(c5015e3870cb53a4583b1d33916e6759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ff78487a277a2915c5bde9bdd50d43') in 0.003037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TileSet/Barn-Background/walls_72.asset
-  artifactKey: Guid(9316ca06814885c4aba5cfccfc45f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_72.asset using Guid(9316ca06814885c4aba5cfccfc45f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8658984140db92411d8e781cd6db0092') in 0.003046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.008661 seconds.
-  path: Assets/TileSet/Barn-Background/walls_78.asset
-  artifactKey: Guid(eb83182539923914f88c960e507b0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_78.asset using Guid(eb83182539923914f88c960e507b0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad074f62369a013c3aa93779fde4fc') in 0.003368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Barn-Background/walls_81.asset
-  artifactKey: Guid(a11762884ca522c4aa0cea8aa33da393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_81.asset using Guid(a11762884ca522c4aa0cea8aa33da393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c9745b474db1587db654982df408fa') in 0.003466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.007655 seconds.
-  path: Assets/TileSet/Barn-Background/walls_87.asset
-  artifactKey: Guid(0c4e799b3e0343342972b8e7f8ce0964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_87.asset using Guid(0c4e799b3e0343342972b8e7f8ce0964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585bc8f9fe5bf8b06a6c230d2e9f5652') in 0.003479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.232445 seconds.
-  path: Assets/TileSet/Barn-Background/walls_91.asset
-  artifactKey: Guid(f21bbb4a903775e45beceec23ea9701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_91.asset using Guid(f21bbb4a903775e45beceec23ea9701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba62cae2bc74f16658cfc87a4e597fa') in 0.003883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_95.asset
-  artifactKey: Guid(ce3c746ebbeee5b4da426fbd11fc8e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_95.asset using Guid(ce3c746ebbeee5b4da426fbd11fc8e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd286383ce972a1c42051eff65ce28613') in 0.003369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Barn-Background/walls_97.asset
-  artifactKey: Guid(1f715b83439c9bb47897cf82a9eacf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_97.asset using Guid(1f715b83439c9bb47897cf82a9eacf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cac8a0327be4a62052f878dc8881187') in 0.003630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.015622 seconds.
-  path: Assets/TileSet/Barn-Background/walls_100.asset
-  artifactKey: Guid(81ee5d8697a9cac4f9ebc9d7c5562ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_100.asset using Guid(81ee5d8697a9cac4f9ebc9d7c5562ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4827016a7fc25f87fc6395bb1e363567') in 0.003780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Barn-Background/walls_103.asset
-  artifactKey: Guid(2abe762b18404d8498df02a5014f0164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_103.asset using Guid(2abe762b18404d8498df02a5014f0164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53722487e798f0a6cc39d94021fb8d21') in 0.003909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Barn-Background/walls_105.asset
-  artifactKey: Guid(e5a17241f9f37fe4a8af124533ee849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_105.asset using Guid(e5a17241f9f37fe4a8af124533ee849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9b23d65060cff3e3ab0adf7011ab94') in 0.003796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.017734 seconds.
-  path: Assets/TileSet/Barn-Background/walls_109.asset
-  artifactKey: Guid(1cde061d151e1ef4db01b30058b0e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_109.asset using Guid(1cde061d151e1ef4db01b30058b0e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71968affbc6e332afd578d4eb103ff97') in 0.003618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Barn-Background/walls_113.asset
-  artifactKey: Guid(50c1a29d4b954b24eb7805b883c98bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_113.asset using Guid(50c1a29d4b954b24eb7805b883c98bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf26d9a3315e495a2fd99439285f35a') in 0.002740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Barn-Background/walls_115.asset
-  artifactKey: Guid(bc39d6618989050489e30d3cac1c0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_115.asset using Guid(bc39d6618989050489e30d3cac1c0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1065266ebbb0ea72ff9d96ab09555c') in 0.003270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Barn-Background/walls_114.asset
-  artifactKey: Guid(069eb8a8fb3b9204994e6296e94bd424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_114.asset using Guid(069eb8a8fb3b9204994e6296e94bd424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690f1d99ea72db8e3ac29ab7203cd39c') in 0.002877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.007923 seconds.
-  path: Assets/TileSet/Barn-Background/walls_123.asset
-  artifactKey: Guid(3724a803a871a774b92975f9cb9f3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_123.asset using Guid(3724a803a871a774b92975f9cb9f3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb05276f235b953605f19d24fd4d427b') in 0.003747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.017994 seconds.
-  path: Assets/TileSet/Barn-Background/walls_127.asset
-  artifactKey: Guid(8d6426a34be1e4a418cb1d9945ada5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_127.asset using Guid(8d6426a34be1e4a418cb1d9945ada5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1499d07233ffb55a2a799ce5d35066a') in 0.003108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TileSet/Barn-Background/walls_133.asset
-  artifactKey: Guid(fa66746d3c996244a866b2c04de0e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_133.asset using Guid(fa66746d3c996244a866b2c04de0e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaf7c0e91c8f224af074ef4e00be9bd') in 0.003024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TileSet/Barn-Background/walls_130.asset
-  artifactKey: Guid(73e939800193de549b018717d9133594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_130.asset using Guid(73e939800193de549b018717d9133594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390eb653bc6f3c980cbde47d169d0f8a') in 0.003281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.007090 seconds.
-  path: Assets/TileSet/Barn-Background/walls_138.asset
-  artifactKey: Guid(e8b94078a2d42714c8f3108501c09b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_138.asset using Guid(e8b94078a2d42714c8f3108501c09b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996ac3591356aef69b16ead80532e4b6') in 0.002991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_140.asset
-  artifactKey: Guid(72bfb1158a73a0340a09ff0d95d33c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_140.asset using Guid(72bfb1158a73a0340a09ff0d95d33c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313db8f75ea7ba2dde7c9e356e9be7c') in 0.003401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.956075 seconds.
-  path: Assets/TileSet/Barn-Background/walls_145.asset
-  artifactKey: Guid(10c4ab89acb08554d8ec568d182a99a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_145.asset using Guid(10c4ab89acb08554d8ec568d182a99a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709fa78c72bb5074e53fb2af5c792874') in 0.002701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/TileSet/Barn-Background/walls_147.asset
-  artifactKey: Guid(7c42b8a9823e9614fac3ba237bbb335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_147.asset using Guid(7c42b8a9823e9614fac3ba237bbb335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d063d47c1c7535779aa22134dafc41') in 0.003538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/TileSet/Barn-Background/walls_150.asset
-  artifactKey: Guid(aba5cfff3f5d56748bc6c6156f79041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_150.asset using Guid(aba5cfff3f5d56748bc6c6156f79041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87458ab13aa89090a2e2f401b3e288c9') in 0.006612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.011031 seconds.
-  path: Assets/TileSet/Barn-Background/walls_154.asset
-  artifactKey: Guid(cad701b2e9960574ea80ad46dba11c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_154.asset using Guid(cad701b2e9960574ea80ad46dba11c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a054ff07d7b1a8b5cd5bbb4539a275bb') in 0.002965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TileSet/Barn-Background/walls_160.asset
-  artifactKey: Guid(1ce6fb5d9ec8c484cbb1d5bcf45f10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_160.asset using Guid(1ce6fb5d9ec8c484cbb1d5bcf45f10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792531de2bc2d7fe9d4c18d4c694e7f3') in 0.003534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TileSet/Barn-Background/walls_157.asset
-  artifactKey: Guid(aaace3cc14d2bf34292200e0b853e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_157.asset using Guid(aaace3cc14d2bf34292200e0b853e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360d9912a9e24feb0195b8d72a20cced') in 0.002850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Barn-Background/walls_155.asset
-  artifactKey: Guid(565a2572ed9ec0b48a2fce17d2ddfb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_155.asset using Guid(565a2572ed9ec0b48a2fce17d2ddfb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6f52153c9d089ee6780bcb4b61daf7') in 0.003006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.009044 seconds.
-  path: Assets/TileSet/Barn-Background/walls_167.asset
-  artifactKey: Guid(e48d01752b560304b828cb33f638f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_167.asset using Guid(e48d01752b560304b828cb33f638f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2a4fcd56e78a4dffab4c758aabada0') in 0.003388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.020647 seconds.
-  path: Assets/TileSet/Barn-Background/walls_343.asset
-  artifactKey: Guid(a1e909eb8123ed94ba865c0d1306a8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_343.asset using Guid(a1e909eb8123ed94ba865c0d1306a8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af08e35e0e1de158324f8ea700faee1') in 0.003186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/TileSet/Barn-Background/walls_346.asset
-  artifactKey: Guid(97dde8457fac121479cea9010cabb1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_346.asset using Guid(97dde8457fac121479cea9010cabb1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3656b2199d99afdde20abb932337bec8') in 0.003076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.010854 seconds.
-  path: Assets/TileSet/Barn-Background/walls_353.asset
-  artifactKey: Guid(bc866a650f81969479be588be490de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_353.asset using Guid(bc866a650f81969479be588be490de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a368319d10f938577d51bc1876f1ad8') in 0.003360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Barn-Background/walls_356.asset
-  artifactKey: Guid(6114ad50b41cd0644afbbd81165df14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_356.asset using Guid(6114ad50b41cd0644afbbd81165df14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c7c892be7abafadac7bcb0fba73592') in 0.002855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.006068 seconds.
-  path: Assets/TileSet/Barn-Background/walls_361.asset
-  artifactKey: Guid(aa27de3610a097342ae1f80f8c1a9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_361.asset using Guid(aa27de3610a097342ae1f80f8c1a9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33df252baf0b1b6cb0202a2857a3502') in 0.003049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Barn-Background/walls_364.asset
-  artifactKey: Guid(a994c4ec0e07ab743895f87bb2d1bfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_364.asset using Guid(a994c4ec0e07ab743895f87bb2d1bfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc372fe990336251a066a0eadc7cd2d') in 0.003229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001021 seconds.
-  path: Assets/TileSet/Barn-Background/walls_367.asset
-  artifactKey: Guid(d8ba84c473a33854f9d99a93586b6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_367.asset using Guid(d8ba84c473a33854f9d99a93586b6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc28ffb20a5f80d288d95bd410303d4') in 0.002611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.005446 seconds.
-  path: Assets/TileSet/Barn-Background/walls_371.asset
-  artifactKey: Guid(b356385408de14146b386a8450a0f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_371.asset using Guid(b356385408de14146b386a8450a0f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf5c0fae1ac49edc91ac0dc3cfe00c4') in 0.003283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Barn-Background/walls_373.asset
-  artifactKey: Guid(bd23bb8a9283e4c4c8c12a66d1c321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_373.asset using Guid(bd23bb8a9283e4c4c8c12a66d1c321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4866598ff9d7686d14d370c6ad85409a') in 0.006261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.016164 seconds.
-  path: Assets/TileSet/Barn-Background/walls_981.asset
-  artifactKey: Guid(723c7765700409c4588a12bb578ed871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_981.asset using Guid(723c7765700409c4588a12bb578ed871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c1c2b6dd0514694024e7107de6fa4') in 0.003625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_985.asset
-  artifactKey: Guid(1a9b06faaf54cee409f2b9c6b0f18d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_985.asset using Guid(1a9b06faaf54cee409f2b9c6b0f18d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cae99022272dc2bd4e848de54ac72d6') in 0.003957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Barn-Background/walls_987.asset
-  artifactKey: Guid(d50e55a74a2b02545a31585a838e47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_987.asset using Guid(d50e55a74a2b02545a31585a838e47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b9bcd6bdc25a1d935edf6e87410d6a') in 0.002340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.005835 seconds.
-  path: Assets/TileSet/Barn-Background/walls_991.asset
-  artifactKey: Guid(df9e8043a4ca4ba42b170667c3d540dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_991.asset using Guid(df9e8043a4ca4ba42b170667c3d540dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9e62178ca9f291a6a94d6cbe4fe89e') in 0.003418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TileSet/Barn-Background/walls_995.asset
-  artifactKey: Guid(b8b60db20894c814f9ba71a86e51c84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_995.asset using Guid(b8b60db20894c814f9ba71a86e51c84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ace034d285bd31840d28aab4468e61') in 0.003530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.007356 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1000.asset
-  artifactKey: Guid(e20ac9bda8cceda47a9ef0e4591f372e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1000.asset using Guid(e20ac9bda8cceda47a9ef0e4591f372e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a088c5cd63ac114135cff63c433a18') in 0.003179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1004.asset
-  artifactKey: Guid(ef5dbb7cb9a4b3d4194e012e1a9eae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1004.asset using Guid(ef5dbb7cb9a4b3d4194e012e1a9eae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dfed6c696397bc61f659341d1d50aa') in 0.003054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1005.asset
-  artifactKey: Guid(c594dfb908c50d940aa2f1b16eb0057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1005.asset using Guid(c594dfb908c50d940aa2f1b16eb0057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2ed7fc574038ed7c1d9d52bd19859') in 0.002144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.035167 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1422.asset
-  artifactKey: Guid(05c76602ef736bf42acf898cc8535946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1422.asset using Guid(05c76602ef736bf42acf898cc8535946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ea063baf207b6deee11ca4c32cc2b4') in 0.003692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1427.asset
-  artifactKey: Guid(3b6f5d0aaf089b945b84180625f2121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1427.asset using Guid(3b6f5d0aaf089b945b84180625f2121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c313160b48804ce72515512d0bd7d9') in 0.003149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1428.asset
-  artifactKey: Guid(0172a25941c1e284990092d4cbc584ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1428.asset using Guid(0172a25941c1e284990092d4cbc584ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8357170cd2bb4d0832fbfa9f926006') in 0.003311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.006919 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1433.asset
-  artifactKey: Guid(bc836747f5c73d9438354059c753c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1433.asset using Guid(bc836747f5c73d9438354059c753c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade2abb7082a7896df6eba31b813f5f3') in 0.003393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1436.asset
-  artifactKey: Guid(53902f76a0915314eb6e269aadc22a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1436.asset using Guid(53902f76a0915314eb6e269aadc22a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8210aea80ab41037537b664070f6451') in 0.005210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1439.asset
-  artifactKey: Guid(646716f1e240b754790e10a8f6c3c32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1439.asset using Guid(646716f1e240b754790e10a8f6c3c32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b9cc49a086641e4779a2c7bade2750') in 0.003277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.005562 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1444.asset
-  artifactKey: Guid(94cdc12354daad442b1302dc335db248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1444.asset using Guid(94cdc12354daad442b1302dc335db248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9bbf9a3018f3f78f288cf076c669e2') in 0.003057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1448.asset
-  artifactKey: Guid(47a567cfd73b65e498b603ba123e95f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1448.asset using Guid(47a567cfd73b65e498b603ba123e95f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5281ece98e30d577fc0748e1349d9c2a') in 0.003134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1449.asset
-  artifactKey: Guid(7380a67671a42a7439d3cc63294079b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1449.asset using Guid(7380a67671a42a7439d3cc63294079b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d599455d241078647f1f0683fed70e') in 0.002611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.008377 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1455.asset
-  artifactKey: Guid(906a36363ae8592448de2d8fb7ac0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1455.asset using Guid(906a36363ae8592448de2d8fb7ac0d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab1a2c31f07e9112171141b8b6d3a9') in 0.003173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.017473 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1468.asset
-  artifactKey: Guid(9acbcf7891c098b488ebb25fed45e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1468.asset using Guid(9acbcf7891c098b488ebb25fed45e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64d2ed8a999396680fd111c06eb4b26') in 0.003975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1473.asset
-  artifactKey: Guid(7caca72eec4ecd542b7122ebfce4478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1473.asset using Guid(7caca72eec4ecd542b7122ebfce4478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd210f1ecfa89a1ebd633f87db1b5c3be') in 0.003163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1471.asset
-  artifactKey: Guid(15c1875a037c1fb4c992edc6f11c8b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1471.asset using Guid(15c1875a037c1fb4c992edc6f11c8b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc636982eeba86169e669f72e0e44075') in 0.002944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.006586 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1479.asset
-  artifactKey: Guid(268e86f1e5e86534a8e1ff9dedd1329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1479.asset using Guid(268e86f1e5e86534a8e1ff9dedd1329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba97d028cf0adc30f23bb2f26dcc115e') in 0.003166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1480.asset
-  artifactKey: Guid(13cb26172bba9374c86bb9c92d88b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1480.asset using Guid(13cb26172bba9374c86bb9c92d88b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632c4684e2e765dbf44dbb610b9f2011') in 0.003109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Barn-Background/walls_1485.asset
-  artifactKey: Guid(e55ab36a34af95842a17d602f2153487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Barn-Background/walls_1485.asset using Guid(e55ab36a34af95842a17d602f2153487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a593b85b0dbea9994bb9b9e0569f148') in 0.003292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 488301.276044 seconds.
+  path: Assets/New Charctar/NewChar/Wanderer Magican/Charge_1.png
+  artifactKey: Guid(756fb4b7109e7094e9ea9ef199830a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Charctar/NewChar/Wanderer Magican/Charge_1.png using Guid(756fb4b7109e7094e9ea9ef199830a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013c73ae10a048c46cc36df8b01e4638') in 0.132337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.631 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.773 seconds
+Domain Reload Profiling: 3401ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1195ms)
+		LoadAssemblies (906ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (471ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4741.
+Memory consumption went from 146.9 MB to 146.7 MB.
+Total: 6.100400 ms (FindLiveObjects: 0.581300 ms CreateObjectMapping: 0.525500 ms MarkObjects: 4.895600 ms  DeleteObjects: 0.096400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Documents\GitHub\Junior-Project\ProjMain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.727 seconds
+Refreshing native plugins compatible for Editor in 7.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.707 seconds
+Domain Reload Profiling: 4433ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (1332ms)
+		LoadAssemblies (481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (961ms)
+			TypeCache.Refresh (941ms)
+				TypeCache.ScanAssembly (757ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1019ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (821ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.7 KB). Loaded Objects now: 4757.
+Memory consumption went from 147.1 MB to 147.0 MB.
+Total: 4.291700 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.311500 ms MarkObjects: 3.533300 ms  DeleteObjects: 0.088500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
