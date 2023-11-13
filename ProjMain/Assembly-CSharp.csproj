@@ -65,18 +65,17 @@
     <Compile Include="Assets\mainmenu.cs" />
     <Compile Include="Assets\Prefabs\Spawner.cs" />
     <Compile Include="Assets\IndustrialArea\1 Loader\Boss_Script\Boss_Health.cs" />
+    <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\Resources\Player.cs" />
     <Compile Include="Assets\IndustrialArea\1 Loader\Boss_weapon_bullet.cs" />
-    <Compile Include="Assets\Camera.cs" />
     <Compile Include="Assets\New Charctar\NewChar\Fire vizard\PlayerAttack.cs" />
-    <Compile Include="Assets\FinalBoss.cs" />
     <Compile Include="Assets\Prefabs\leftRight.cs" />
+    <Compile Include="Assets\GunProj.cs" />
+    <Compile Include="Assets\IndustrialArea\1 Loader\Boss_run.cs" />
     <Compile Include="Assets\IndustrialArea\1 Loader\Boss_Script\Boss_weapon_ranged.cs" />
     <Compile Include="Assets\New Charctar\NewChar\Fire vizard\AttackArea.cs" />
     <Compile Include="Assets\MovePlayer.cs" />
-    <Compile Include="Assets\Boss_run.cs" />
     <Compile Include="Assets\HealthBar.cs" />
-    <Compile Include="Assets\DoorScript.cs" />
     <Compile Include="Assets\Monstermovement.cs" />
     <Compile Include="Assets\keyscript.cs" />
     <Compile Include="Assets\WalkingSounds.cs" />
@@ -86,6 +85,7 @@
     <Compile Include="Assets\Rotation2.cs" />
     <Compile Include="Assets\Prefabs\Trap\SpawnObject.cs" />
     <Compile Include="Assets\IndustrialArea\1 Loader\Boss_Script\Boss_Weapon.cs" />
+    <Compile Include="Assets\industrial\3 Heaver\EnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -126,6 +126,7 @@
     <None Include="Assets\craftpix\Villagers\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\IndustrialArea\craftPix\Readme.txt" />
+    <None Include="Assets\industrial\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\IndustrialArea\craftPix\other\how-to-export.txt" />
     <None Include="Assets\cars\Font.txt" />
@@ -136,10 +137,13 @@
     <None Include="Assets\craftpix\Desert Enemy\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\IndustrialArea\craftPix\Font.txt" />
+    <None Include="Assets\industrial\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\industrial2\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\industrial2\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\craftpix\Animals\Font.txt" />
   </ItemGroup>

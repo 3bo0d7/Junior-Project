@@ -8,7 +8,7 @@ public class Boss_weapon_ranged : MonoBehaviour
     public Transform BoxPOS;
     private float timer;
  
-
+    /*
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +34,11 @@ public class Boss_weapon_ranged : MonoBehaviour
 
 
     }
-   /* IEnumerator Destroy()
+  /*  IEnumerator Destroy()
     {
         yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
 
     }*/
-
+    
 }

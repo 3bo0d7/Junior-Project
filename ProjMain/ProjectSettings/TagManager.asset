@@ -26,6 +26,8 @@ TagManager:
   - hayena
   - DoorEnd
   - Bullet
+  - Boss
+  - EnemyTrigger
   layers:
   - Default
   - TransparentFX
