@@ -47,8 +47,8 @@ public class Boss_weapon_bullet : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Player.SendMessage("Damage");
-            gameObject.SetActive(false);
-
+            //gameObject.SetActive(false);
+            Destroy(gameObject, 1.0f);
 
         }
     }

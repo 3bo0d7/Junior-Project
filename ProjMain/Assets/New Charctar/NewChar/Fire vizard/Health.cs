@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
     public float moveSpeed = 3f; // speed at which the enemy moves
     public float attackRange = 2f; // distance at which the enemy will attack the player
     public float attackDelay = 1f; // time delay between attacks
-
+    int hitCounter = 0;
     private Transform player; // reference to the player's transform
     private bool isAttacking = false; // flag to determine if the enemy is attacking
     private float attackTimer = 0f;
@@ -121,6 +121,12 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerSword")
         {
+           hitCounter++;
+            print(hitCounter + "hit");
+
+        }
+        void deathRoutine()
+        {
             isAttacking = false;
             animator.SetBool("isattack", isAttacking);
             initiate = false;
@@ -131,9 +137,7 @@ public class Health : MonoBehaviour
             death.Play();
 
             StartCoroutine(Die());
-
         }
-     
        
     }
     public void begin(bool enm)

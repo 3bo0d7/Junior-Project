@@ -18,7 +18,7 @@ public class MovePlayer : MonoBehaviour
     bool isJumpingUp = false;
     bool isJumpingDown = false;
     bool isIdle = true;
-    int playerRunningDirection = 1;
+    public int playerRunningDirection = 1;
     bool isDeath = false;
     Animator playerAnimator;
     int KeyCounter = 0;
@@ -36,6 +36,8 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] GameObject hayena3;
     [SerializeField] GameObject hayena4;
     [SerializeField] GameObject hayena5;
+    [SerializeField] GameObject Enemy1;
+    [SerializeField] GameObject Boss2;
     [SerializeField] Image heart1;
     [SerializeField] Image heart2;
     [SerializeField] Image heart3;
@@ -148,7 +150,11 @@ public class MovePlayer : MonoBehaviour
     {
         if (!isDeath)
         {
-          
+            if (playerRunningDirection == 1)
+                this.SendMessage("DirRight");
+            else
+                this.SendMessage("DirLeft");
+
             getInput();
             identifyRun();
             Run();
@@ -186,6 +192,10 @@ public class MovePlayer : MonoBehaviour
         {
             hayena.SendMessage("begin", true);
         }
+        if (collision.gameObject.tag == "EnemyTrigger")
+        {
+            Enemy1.SendMessage("begin", true);
+        }
         if (collision.gameObject.tag == "Mobtrigger1")
         {
             hayena1.SendMessage("begin", true);
@@ -217,7 +227,12 @@ public class MovePlayer : MonoBehaviour
         {
             SceneManager.LoadScene("Main");
         }
-        
+
+        if (collision.gameObject.tag == "Bullet")
+        {
+            hayena5.SendMessage("begin", true);
+        }
+
     }
   
     void NextLevel()
