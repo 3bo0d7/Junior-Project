@@ -41,6 +41,7 @@ public class Boss_Weapon : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(playerTransform.position, enemyTransform.position);
+        print("Distance: " + distance);
 
         if (distance < meleeRange)
         {
@@ -49,12 +50,19 @@ public class Boss_Weapon : MonoBehaviour
             // Switch to melee attack
             MeleeAttack();
         }
-        else
+        else if(distance < 6)
         {
             Meleeattack = false;
             Rangedattack = true;
             // Switch to ranged attack
             RangedAttack();
+        }
+        else
+        {
+            Meleeattack = false;
+            Rangedattack = false;
+            animator.SetBool("MeleeAttack", Meleeattack);
+            animator.SetBool("RangedAttack", Rangedattack);
         }
 
     }
@@ -63,7 +71,10 @@ public class Boss_Weapon : MonoBehaviour
     {
         // melee attack logic here
         animator.SetBool("MeleeAttack", Meleeattack);
+        animator.SetBool("RangedAttack", Rangedattack);
         Debug.Log("Melee Attack!");
+        Attack();
+
     }
 
     void RangedAttack()
@@ -74,6 +85,7 @@ public class Boss_Weapon : MonoBehaviour
         {
             timer = 0;
             shoot();
+            animator.SetBool("MeleeAttack", Meleeattack);
             animator.SetBool("RangedAttack", Rangedattack);
 
         }
